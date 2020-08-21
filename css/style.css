@@ -1,3 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#title, #subtitle{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+#subtitle{
+    margin-bottom: 10px;
+}
+
+#main{
+    background-color: #ebebeb;
+}
+
+#img-div{
+    background-color: white;
+    margin: 0 20%;
+    padding-top: 20px;
+}
+
+#img-caption{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
 #image{
     width: 100%;
     height: auto;
@@ -6,12 +40,37 @@
     margin-right: auto;
     display: block;
   }
- a {
+
+#tribute-info{
+      text-align: center;
+  }
+
+#key-facts{
+    max-width: 625px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#key-facts ul{
+    list-style: none;
+}
+
+#key-facts ul li p{
+    margin-bottom: 30px;
+}
+
+a {
    color: green; 
- } 
- a:visited {
+   display: block;
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+} 
+
+a:visited {
    color: brown;
- }
- a:hover{
+}
+
+a:hover{
    color: blue
- }
+}
