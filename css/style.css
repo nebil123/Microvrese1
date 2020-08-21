@@ -6,3 +6,12 @@
     margin-right: auto;
     display: block;
   }
+ a {
+   color: green; 
+ } 
+ a:visited {
+   color: brown;
+ }
+ a:hover{
+   color: blue
+ }
